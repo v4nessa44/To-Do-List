@@ -1,92 +1,107 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 
-body{
-    background-color: rgb(218, 237, 245);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-   
-    
+body {
+  background-color: rgb(218, 237, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
-.list-container{
-    background-color: white;
-    width: 600px;
-    position: relative;
-    
-    
+.list-container {
+  background-color: white;
+  width: 600px;
+  position: relative;
 }
 
-.list-container h1{
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    
+.list-container h1 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
-.input-containter{
-    margin: 20px;
-    position: relative;
-    
+.input-containter {
+  margin: 20px;
+  position: relative;
 }
 
-.input-containter input{
-    width: 85%;
-    padding: 10px;
-    border: none;
-    background-color: rgb(213, 238, 248);
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+.input-containter input {
+  width: 85%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(213, 238, 248);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
-.input-containter button{
-    padding: 10px;
-    position:absolute;
-    border: none;  
-    background-color: rgb(47, 152, 194);
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+.input-containter button {
+  padding: 10px;
+  position: absolute;
+  border: none;
+  background-color: rgb(47, 152, 194);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.input-containter button:hover{
-    color: white;
-    background-color: rgb(33, 98, 141);
+.input-containter button:hover {
+  color: white;
+  background-color: rgb(33, 98, 141);
 }
 
-.task-container{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+.task-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.task-container p{
-    display: flex;
-    justify-content: center;
+.task-container p {
+  display: flex;
+  justify-content: center;
 }
 
 .task-container ul {
-    background-color: lightgrey;
-   
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.task-container ul .action{
-    background-color: rgb(115, 201, 65);
-   
+.task-container li {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.task-container ul .action button{
-    
-   
-   
+.task-container li button {
+  background-color: rgb(167, 217, 236);
   
 }
 
-.task-container .clearBtn{
-    background-color: white; 
-    border-radius: 20px;
-    
-    
+.task-container li button:hover {
+  background-color: rgb(154, 205, 50);
+  box-shadow: 6px 5px 7px 0px rgba(107, 148, 25, 0.75);
+
+  
+}
+
+.task-container .clearBtn {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin: auto;
+}
+
+.task-container .clearBtn:hover {
+  background-color: rgb(47, 152, 194);
+  box-shadow: 6px 5px 7px 0px rgba(170,199,240,0.75);
+
+
 }

@@ -1,25 +1,32 @@
 "use strict"
 
-let inputEl = document.querySelector(".input-containter");
-let btn = document.querySelector(".clearBtn");
+let inputEl = document.querySelector("input");
+let submitBtn = document.querySelector(".submitBtn");
+let clearAllBtn = document.querySelector(".clearBtn");
+let listEl = document.querySelector("ul");
 
 
 
 
 
-
-let addedItem ((a)=>{
-
-})
+const toDoList = () => {
+    // create a new task (li) item
 
 
-let addToDo ((b)=>{
+    const liEL = document.createElement('li')
+    liEL.innerText = inputEl.value;
 
-})
+    listEl.appendChild(liEL)
+
+}
+
+
+const clearItems = () => {
+
+}
 
 
 
 
-
-btn.addEventListener("click" addedItem);
-inputEl.addEventListener("submit" addToDo);
+submitBtn.addEventListener("click", toDoList);
+clearAllBtn.addEventListener("click", clearItems);
