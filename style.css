@@ -80,14 +80,11 @@ body {
 
 .task-container li button {
   background-color: rgb(167, 217, 236);
-  
 }
 
 .task-container li button:hover {
   background-color: rgb(154, 205, 50);
   box-shadow: 6px 5px 7px 0px rgba(107, 148, 25, 0.75);
-
-  
 }
 
 .task-container .clearBtn {
@@ -101,7 +98,9 @@ body {
 
 .task-container .clearBtn:hover {
   background-color: rgb(47, 152, 194);
-  box-shadow: 6px 5px 7px 0px rgba(170,199,240,0.75);
+  box-shadow: 6px 5px 7px 0px rgba(170, 199, 240, 0.75);
+}
 
-
+.checked {
+  text-decoration: line-through;
 }
